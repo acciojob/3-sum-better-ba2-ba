@@ -1,5 +1,6 @@
 function threeSum(arr, target) {
-// write your code herearr.sort((a, b) => a - b);
+// write your code here
+	arr.sort((a, b) => a - b);
   
   // Initialize variables
   let closestSum = arr[0] + arr[1] + arr[2];
